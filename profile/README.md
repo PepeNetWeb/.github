@@ -2,7 +2,7 @@
 
 PepeNet is internet infrastructure for creating .pepe domain names and securing them with HTTPS.
 
-## The On-Chain Namespace
+## The Namespace
 
 The namespace-protocol repo defines the on-chain namespace which allows users to register/release names, pay their leases, and sell/trade their names.
 
@@ -19,6 +19,7 @@ There are 12 opcodes:
 - AS (Change acting vin identity, for custodial multi-op_return operations)
 - TRADE (Co-signed name swaps)
 
-Names are leased for up to 1 year and renewed at any time (max 1 year). Leasing cost is tied to network fees using a coinbase fee oracle (coinbase value - 10,000 = network fees collected that block), calculated as the approximate network costs of 13 transactions per year. All coin paid to leases is burned in an OP_RETURN (not paid to anyone, returned to the commons as deflation). 
+Names are leased for up to 1 year and renewed at any time (max 1 year). Leasing cost is tied to network fees using a coinbase fee oracle (coinbase value - 10,000 = network fees collected that block). A 1-Year lease is calculated as the approximate network costs of performing 13 transactions/year. All coin paid to leases is burned in provably unspendable OP_RETURN (not paid to anyone, returned to the commons as deflation). 
 
-No UTXO set or block history pre-activation is necessary to index the namespace, making indexers very light.
+No UTXO set or block history pre-activation is necessary to index the namespace, which makes indexers very light.
+

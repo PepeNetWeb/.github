@@ -2,6 +2,14 @@
 
 PepeNet is internet infrastructure for creating .pepe domain names and securing them with HTTPS.
 
+
+## PepeNet Desktop
+
+The desktop app bundles the whole stack. It includes a p2p P2PKH wallet for interacting with the namespace/market, the DNS module for publishing DNS records, and TLS for securily visiting .pepe websites.
+
+<img width="705" height="522" alt="image" src="https://github.com/user-attachments/assets/c45330c8-45a0-4f43-b0cd-374f45744240" />
+
+
 ## The Namespace
 
 The [namespace-protocol](https://github.com/PepeNetWeb/namespace-protocol) repo defines the on-chain namespace which allows users to register/release names, pay their leases, and sell/trade their names.
@@ -22,5 +30,3 @@ There are 12 opcodes:
 Names are leased for up to 1 year and renewed at any time (max 1 year). Leasing cost is tied to network fees using a coinbase fee oracle (coinbase value - 10,000 = network fees collected that block). A 1-Year lease is calculated as the approximate network costs of performing 13 transactions/year. All coin paid to leases is burned in provably unspendable OP_RETURN (not paid to anyone, returned to the commons as deflation). 
 
 No UTXO set or block history pre-activation is necessary to index the namespace, which makes indexers very light.
-
-

@@ -12,7 +12,7 @@ There are 12 opcodes:
 
 - COMMIT & CLAIM (Front-run proof name registration)
 - RELEASE (Give up ownership of a name)
-- RENEW (Pay rent on their name's lease)
+- RENEW (Extend leases)
 - TRANSFER (Move a name to a different wallet address)
 - SELL/RESERVE/SETTLE (Open market selling/purchasing of names)
 - SELL_TO/PAY (Direct sell offers to address)

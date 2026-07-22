@@ -7,7 +7,8 @@ PepeNet is internet infrastructure for creating .pepe domain names and securing 
 
 The desktop app bundles the whole stack. It includes a p2p P2PKH wallet for interacting with the namespace/market, the DNS module for publishing DNS records, and TLS for securily visiting .pepe websites.
 
-<img width="705" height="522" alt="image" src="https://github.com/user-attachments/assets/c45330c8-45a0-4f43-b0cd-374f45744240" />
+<img width="768" height="948" alt="image" src="https://github.com/user-attachments/assets/49bb097f-5f17-4f8e-936b-8fa5d3c3d35f" />
+
 
 
 ## The Namespace
